@@ -1,0 +1,115 @@
+.Cart {
+  width: 100vw;
+  min-height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 4rem;
+  background-color: rgb(249, 178, 91);
+
+  .cartitem {
+    text-decoration: none;
+    border-radius: 1rem;
+    width: 28vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 8rem;
+    margin-top: 8rem;
+    padding: 0.6rem;
+    background-color: rgb(249, 150, 30);
+
+    .header {
+      width: 12vw;
+      height: 3rem;
+      padding: 0.4rem;
+      background-color: rgb(242, 183, 111);
+    }
+
+    .price {
+      width: 4vw;
+      height: 3rem;
+      padding: 0.4rem;
+      font-size: 2rem;
+      background-color: rgb(242, 183, 111);
+    }
+
+    .btn1 {
+      padding: 0.3rem;
+
+      button {
+        cursor: pointer;
+        border-radius: 0.5rem;
+        width: 2rem;
+        font-size: 1.5rem;
+        background-color: darkorange;
+
+        &:hover{
+          border: 4px solid black;
+        }
+      }
+    }
+
+    .amount {
+      padding: 0.5rem 1.5rem;
+      width: 4vw;
+      height: 3rem;
+      font-size: 2rem;
+      background-color: rgb(242, 183, 111);
+    }
+
+    .btn2 {
+      padding: 0.3rem;
+
+      button {
+        cursor: pointer;
+        background-color: darkorange;
+        border-radius: 0.5rem;
+        width: 2rem;
+        font-size: 1.5rem;
+
+        &:hover{
+          border: 4px solid black;
+        }
+      }
+    }
+  }
+
+  .totalAmount {
+    position: absolute;
+    padding: 0.2rem;
+    margin-top: 2rem;
+    margin-right: 20rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 8rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: darkorange;
+  }
+
+  .orderBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 8rem;
+    height: 4rem;
+    background-color: darkorange;
+    margin-left: 25rem;
+    margin-top: 2rem;
+    padding: 0.1rem 1rem;
+    border: 0.2rem solid black;
+    border-radius: 0.7rem;
+    transition: all 0.3s ease-in-out;
+
+    .link {
+      font-size: 2.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      color: black;
+    }
+
+    &:hover {
+      background-color: rgb(247, 150, 32);
+      border: 0.4rem solid black;
+    }
+  }
+}
