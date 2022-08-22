@@ -17,7 +17,7 @@ const MealItems = (props) => {
   };
 
   return (
-    <li key={props.id} id={props.id} className="meal">
+      <li key={props.id} id={props.id} className="meal shadow card">
       <h2>{props.name}</h2>
       <img src={props.image} alt="food" />
       <h3>$ {props.price}</h3>

@@ -1,49 +1,48 @@
 .Cart {
   width: 100vw;
-  min-height: 70vh;
+  min-height: 90vh;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 4rem;
-  background-color: rgb(249, 178, 91);
+  background-color: rgb(255, 140, 0);
 
   .cartitem {
-    text-decoration: none;
-    border-radius: 1rem;
-    width: 28vw;
-    height: 10vh;
+    width: 30vw;
+    height: 15vh;
     display: flex;
-    flex-direction: row;
-    margin-left: 8rem;
-    margin-top: 8rem;
-    padding: 0.6rem;
-    background-color: rgb(249, 150, 30);
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    background-color: rgb(221, 76, 23);
+    border-radius: 2rem;
 
     .header {
-      width: 12vw;
+      width: 50%;
       height: 3rem;
       padding: 0.4rem;
-      background-color: rgb(242, 183, 111);
+      background-color: rgb(221, 76, 23);
     }
 
     .price {
       width: 4vw;
-      height: 3rem;
+      height: 2rem;
       padding: 0.4rem;
-      font-size: 2rem;
-      background-color: rgb(242, 183, 111);
     }
 
     .btn1 {
       padding: 0.3rem;
 
       button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         border-radius: 0.5rem;
         width: 2rem;
         font-size: 1.5rem;
-        background-color: darkorange;
+        background-color: rgb(225, 139, 107);
 
-        &:hover{
+        &:hover {
           border: 4px solid black;
         }
       }
@@ -54,20 +53,24 @@
       width: 4vw;
       height: 3rem;
       font-size: 2rem;
-      background-color: rgb(242, 183, 111);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // background-color: rgb(242, 183, 111);
     }
 
     .btn2 {
       padding: 0.3rem;
 
       button {
+        background-color: rgb(225, 139, 107);
         cursor: pointer;
-        background-color: darkorange;
+        // background-color: darkorange;
         border-radius: 0.5rem;
         width: 2rem;
         font-size: 1.5rem;
 
-        &:hover{
+        &:hover {
           border: 4px solid black;
         }
       }
@@ -75,16 +78,19 @@
   }
 
   .totalAmount {
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     padding: 0.2rem;
-    margin-top: 2rem;
-    margin-right: 20rem;
+    margin-top: 30rem;
     font-size: 2rem;
     font-weight: 500;
-    margin-left: 8rem;
+    margin-left: 37rem;
     width: 10rem;
     height: 3rem;
-    background-color: darkorange;
+    background-color: rgb(221, 76, 23);
   }
 
   .orderBtn {
@@ -93,11 +99,11 @@
     width: 8rem;
     height: 4rem;
     background-color: darkorange;
-    margin-left: 25rem;
-    margin-top: 2rem;
+    margin-left: 50rem;
+    margin-top: 30rem;
     padding: 0.1rem 1rem;
     border: 0.2rem solid black;
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     transition: all 0.3s ease-in-out;
 
     .link {
@@ -108,8 +114,8 @@
     }
 
     &:hover {
-      background-color: rgb(247, 150, 32);
-      border: 0.4rem solid black;
+      border: 0.3rem solid black;
+      border-radius: 0;
     }
   }
 }

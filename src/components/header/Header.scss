@@ -4,25 +4,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background-color: rgb(255, 140, 0);
 
   .logo {
-    // background-color: red;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-left: 0.7rem;
+    background-color: white;
     width: 8rem;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease;
+
+    &:hover {
+      border-radius: 0;
+    }
 
     .link {
       text-decoration: none;
       color: black;
-      font-size: 3rem;
+      font-size: xx-large;
       font-weight: 500;
-      margin: 2.5rem;
-      transition: all 0.3s ease-in-out;
-
-      &:hover {
-        color: rgb(255, 217, 171);
-      }
     }
   }
 
@@ -76,7 +80,7 @@
   }
 
   .shake {
-    animation: shake 2s ease 0s 1 normal forwards;
+    animation: shake 1s ease 0s 1 normal forwards;
 
     @keyframes shake {
       0%,

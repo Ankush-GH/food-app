@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import BG from "../../../assets/bg.png";
 import "./Home.scss";
 
@@ -9,7 +8,7 @@ const Home = () => {
     <div className="home">
       <div className="left">
         <div className="heading">
-          <span>Delicous Food For Your Craving's </span>
+          <span>Delicous Food waiting in the </span>
         </div>
         <div className="btn">
           <Link className="link" to="/menu">Menu</Link>

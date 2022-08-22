@@ -1,7 +1,7 @@
 .menu {
   width: 100vw;
-  height: 170vh;
-  background-color: rgb(241, 172, 88);
+  height: 180vh;
+  background-color: rgb(255, 140, 0);
 
   .heading {
     width: 100vw;
@@ -27,7 +27,8 @@
       flex-wrap: wrap;
 
       .meal {
-        background-color: rgb(255, 140, 0);
+        color: black;
+        background-color: rgb(221, 76, 23);
         width: 25vw;
         min-height: 60vh;
         margin: 4rem 1rem;
