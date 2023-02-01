@@ -1,0 +1,10 @@
+.app__complaints {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.orange {
+  font-weight: 600;
+  font-family: var(--font-base);
+  color: var(--color-orange);
+}

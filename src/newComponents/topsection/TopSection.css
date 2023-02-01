@@ -1,0 +1,207 @@
+.topsection {
+  height: 60vh;
+  background-image: url(../../newAssets/navbarImg.webp);
+  width: 100vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mainHeader {
+  border-bottom: 2px solid var(--color-orange);
+  position: absolute;
+  bottom: 80px;
+  left: 585px;
+  font-size: 80px;
+  color: var(--color-orange);
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainHeader:hover {
+  color: #fff2d1;
+}
+
+.left {
+  display: flex;
+  bottom: 2px;
+  position: absolute;
+  left: 20px;
+}
+
+.right {
+  display: flex;
+  bottom: 2px;
+  right: 20px;
+  position: absolute;
+}
+
+.navbtn {
+  border-top: 2px solid var(--color-orange);
+  font-size: x-large;
+  color: var(--color-white);
+  transition: 0.5s ease;
+}
+.navbtn:hover {
+  color: var(--color-orange);
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .topsection {
+    margin: 0 0 0 0;
+    height: 50vh;
+    width: 100vw;
+  }
+  .mainHeader {
+    width: 40%;
+    font-size: 3rem;
+    left: 30%;
+  }
+  .left {
+    left: 1%;
+    bottom: -5%;
+  }
+  .right {
+    right: 1%;
+    bottom: -5%;
+  }
+  .navbtn {
+    font-size: 0.7rem;
+  }
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .topsection {
+    height: 50vh;
+    width: 100vw;
+  }
+  .mainHeader {
+    width: 40%;
+    font-size: 3rem;
+    left: 30%;
+  }
+  .left {
+    left: 1%;
+    bottom: -5%;
+  }
+  .right {
+    right: 1%;
+    bottom: -5%;
+  }
+  .navbtn {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .topsection {
+    height: 50vh;
+    width: 100vw;
+  }
+  .mainHeader {
+    width: 40%;
+    font-size: 3rem;
+    left: 30%;
+  }
+  .left {
+    left: 1%;
+    bottom: -5%;
+  }
+  .right {
+    right: 1%;
+    bottom: -5%;
+  }
+  .navbtn {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .topsection {
+    height: 40vh;
+    width: 100vw;
+  }
+  .mainHeader {
+    width: 40%;
+    font-size: 3rem;
+    left: 30%;
+  }
+  .left {
+    left: 1%;
+    bottom: -5%;
+  }
+  .right {
+    right: 1%;
+    bottom: -5%;
+  }
+  .navbtn {
+    font-size: 1rem;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .topsection {
+    height: 35vh;
+    width: 100vw;
+  }
+  .mainHeader {
+    width: 40%;
+    font-size: 3rem;
+    left: 30%;
+  }
+  .left {
+    left: 1%;
+    bottom: -5%;
+  }
+  .right {
+    right: 1%;
+    bottom: -5%;
+  }
+  .navbtn {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .topsection {
+    height: 35vh;
+    width: 100vw;
+  }
+  .mainHeader {
+    width: 40%;
+    font-size: 3rem;
+    left: 30%;
+  }
+  .left {
+    left: 1%;
+    bottom: -5%;
+  }
+  .right {
+    right: 1%;
+    bottom: -5%;
+  }
+  .navbtn {
+    font-size: 1rem;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .mainHeader {
+    margin-left: -20%;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .topsection {
+    height: 45vh;
+  }
+  .mainHeader {
+    margin-left: -5%;
+  }
+}

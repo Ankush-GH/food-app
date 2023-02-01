@@ -1,6 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Stick+No+Bills&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inter&family=Stick+No+Bills&display=swap");
+
+:root {
+  --font-head: "Stick No Bills", sans-serif;
+  --font-base: "Acme", sans-serif;
+
+  --color-orange: rgba(229, 88, 28, 1);
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
 }

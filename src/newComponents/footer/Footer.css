@@ -1,0 +1,272 @@
+.app__footer {
+  height: 80vh;
+  background-image: url("../../newAssets/navbarImg.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  position: relative;
+}
+
+.footer-mainheader {
+  text-align: center;
+  left: 10%;
+  width: 80%;
+  font-size: 60px;
+  border-bottom: 3px solid var(--color-orange);
+  color: var(--color-orange);
+  position: absolute;
+  bottom: -10px;
+  padding: 1.5rem 0;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+}
+
+.gettoknowus {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 25%;
+  right: 40%;
+}
+
+.socialmedia {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+}
+
+.social-icons {
+  border-radius: 50%;
+  background: black;
+  margin: 1rem 0 0 1rem;
+}
+
+.support-btns {
+  color: orange;
+  background: rgb(27, 27, 27, 0.5);
+  margin-top: 0.3rem;
+}
+.support-btns:hover {
+  background: none;
+  border-left: 2px solid var(--color-orange);
+  color: var(--color-orange);
+}
+
+.m-top0 {
+  margin-top: 0;
+}
+
+/* for small to medium mobiles */
+/* @media screen and (max-width: 480px) and (min-width: 320px) { */
+/* .app__footer {
+    height: 70vh;
+    margin-top: 2rem;
+  }
+  .footer-mainheader {
+    height: 20%;
+    font-size: 1.5rem;
+  }
+  .socialmedia {
+    height: 25%;
+    top: 12.5rem;
+    right: 200px;
+  }
+  .gettoknowus {
+    width: 100px;
+    left: 120px;
+  }
+  .support {
+    font-size: 0.5rem;
+  }
+  .support-btns {
+    font-size: 0.5rem;
+  }
+  .mobileheadersize {
+    font-size: 0.8rem;
+  }
+}
+*/
+
+/* for medium to tablets */
+/* @media screen and (max-width: 768px) and (min-width: 481px) {
+  .app__footer {
+    height: 60vh;
+  }
+  .gettoknowus {
+    right: 15rem;
+  }
+} */
+
+/* for tablets to Laptop screens */
+/* @media screen and (max-width: 1024px) and (min-width: 769px) {
+  .gettoknowus {
+    margin-bottom: 1rem;
+  }
+  .support {
+    margin-bottom: 1rem;
+  }
+  .socialmedia {
+    margin-bottom: 1rem;
+  }
+}
+*/
+
+/* for laptop to desktop or bigger screens */
+/* @media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .gettoknowus {
+    font-size: 1.5rem;
+  }
+  .support {
+    font-size: 1.5rem;
+  }
+  .socialmedia {
+    font-size: 1.5rem;
+  }
+  .mobileheadersize {
+    font-size: 2.5rem;
+  }
+} */
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .app__footer {
+    height: 70vh;
+    margin-top: 2rem;
+  }
+  .footer-mainheader {
+    height: 20%;
+    font-size: 1.5rem;
+  }
+  .socialmedia {
+    height: 25%;
+    top: 12.5rem;
+    right: 200px;
+  }
+  .gettoknowus {
+    width: 100px;
+    left: 120px;
+  }
+  .support {
+    font-size: 0.5rem;
+  }
+  .support-btns {
+    font-size: 0.5rem;
+  }
+  .mobileheadersize {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .app__footer {
+    height: 70vh;
+    margin-top: 2rem;
+  }
+  .footer-mainheader {
+    height: 20%;
+    font-size: 1.5rem;
+  }
+  .socialmedia {
+    height: 25%;
+    top: 14.5rem;
+    right: 250px;
+  }
+  .gettoknowus {
+    width: 100px;
+    left: 140px;
+  }
+  .support {
+    font-size: 0.5rem;
+  }
+  .support-btns {
+    font-size: 0.5rem;
+  }
+  .mobileheadersize {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .app__footer {
+    height: 70vh;
+    margin-top: 2rem;
+  }
+  .footer-mainheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-size: 2.5rem;
+  }
+  .socialmedia {
+    height: 25%;
+    top: 19.5rem;
+    right: 270px;
+  }
+  .gettoknowus {
+    width: 100px;
+    left: 180px;
+  }
+  .support {
+    font-size: 0.5rem;
+  }
+  .support-btns {
+    font-size: 0.5rem;
+  }
+  .mobileheadersize {
+    font-size: 1rem;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .app__footer {
+    margin: 2rem 0;
+    height: 60vh;
+  }
+  .gettoknowus {
+    right: 15rem;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .app__footer {
+    margin: 2rem 0;
+    height: 60vh;
+  }
+  .gettoknowus {
+    right: 15rem;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .gettoknowus {
+    margin-bottom: 1rem;
+  }
+  .support {
+    margin-bottom: 1rem;
+  }
+  .socialmedia {
+    margin-bottom: 1rem;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .gettoknowus {
+    margin-bottom: 1rem;
+  }
+  .support {
+    margin-bottom: 1rem;
+  }
+  .socialmedia {
+    margin-bottom: 1rem;
+  }
+}

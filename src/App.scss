@@ -1,3 +1,59 @@
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
+}
+
+.margin {
+  margin: 2rem;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.font_head {
+  font-family: var(--font-head);
+}
+
+.font_base {
+  font-family: var(--font-base);
+}
+
+.flex__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom__button {
+  background-color: var(--color-black);
+  font-family: var(--font-head);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.p__nobills {
+  font-family: var(--font-head);
+  color: var(--color-black);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.p__acme {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.section_margin-top {
+  margin-top: 60px;
+}
+
+.transform180 {
+  transform: rotate(180deg);
 }

@@ -1,0 +1,317 @@
+.app__fooderapp {
+  height: 50vh;
+  position: relative;
+  background-color: rgb(255, 100, 44);
+}
+.fooderapp-mainheader {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-family: var(--font-base);
+  font-weight: 600;
+  width: 40vw;
+  font-size: 4rem;
+  line-height: 90px;
+}
+.F {
+  font-family: var(--font-head);
+  font-size: 5rem;
+}
+.fooderapp-p {
+  font-size: xx-large;
+  font-weight: 500;
+  position: absolute;
+  left: 10%;
+  top: 70%;
+  font-family: var(--font-base);
+}
+.fooderapp-img {
+  top: 80px;
+  right: 100px;
+  position: absolute;
+  width: 350px;
+  height: 200px;
+}
+
+/* for small to medium mobiles */
+/* @media screen and (max-width: 480px) and (min-width: 320px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 1.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 7vh;
+  }
+  .F {
+    font-size: 2.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 20vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 60%;
+    font-size: 1.8rem;
+  }
+} */
+
+/* for medium to tablets */
+/* @media screen and (max-width: 768px) and (min-width: 481px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 2.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 7vh;
+  }
+  .F {
+    font-size: 3.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 20vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 60%;
+    font-size: 2.8rem;
+  }
+} */
+
+/* for tablets to Laptop screens */
+/* @media screen and (max-width: 1024px) and (min-width: 769px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 3.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 10vh;
+  }
+  .F {
+    font-size: 4.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 30vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 70%;
+    font-size: 2.5rem;
+  }
+} */
+
+/* for laptop to desktop or bigger screens */
+/* @media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 3.5rem;
+    width: 40vw;
+    height: 20vh;
+    line-height: 10vh;
+  }
+  .F {
+    font-size: 4.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 30vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 70%;
+    font-size: 2.5rem;
+  }
+} */
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 1.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 7vh;
+  }
+  .F {
+    font-size: 2.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 20vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 60%;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 1.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 7vh;
+  }
+  .F {
+    font-size: 2.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 20vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 60%;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 1.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 7vh;
+  }
+  .F {
+    font-size: 2.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 20vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 60%;
+    font-size: 1.8rem;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 2.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 7vh;
+  }
+  .F {
+    font-size: 3.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 20vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 60%;
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 2.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 7vh;
+  }
+  .F {
+    font-size: 3.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 20vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 60%;
+    font-size: 2.8rem;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 3.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 10vh;
+  }
+  .F {
+    font-size: 4.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 30vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 70%;
+    font-size: 2.5rem;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .app__fooderapp {
+    height: 40vh;
+  }
+  .fooderapp-mainheader {
+    font-size: 3.5rem;
+    width: 50vw;
+    height: 20vh;
+    line-height: 10vh;
+  }
+  .F {
+    font-size: 4.5rem;
+  }
+  .fooderapp-img {
+    width: 50vw;
+    height: 30vh;
+    left: 50%;
+    top: 10%;
+  }
+  .fooderapp-p {
+    top: 70%;
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,270 @@
+.cravings {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.slider-left {
+  width: 300px;
+  position: absolute;
+  left: 90px;
+  font-size: x-large;
+  font-weight: 500;
+}
+.slider {
+  width: 600px;
+  height: 370px;
+  border-radius: 8px;
+  background-color: pink;
+  position: absolute;
+  left: 29%;
+  background-size: 100% 100%;
+  background-image: url("../../newAssets//cravings.jpg");
+  animation: changeImage 12s linear infinite;
+}
+
+@keyframes changeImage {
+  0% {
+    background-image: url("../../newAssets//cravings.jpg");
+  }
+  33% {
+    background-image: url("../../newAssets//cravings2.jpg");
+  }
+  66% {
+    background-image: url("../../newAssets//cravings3.jpg");
+  }
+  100% {
+    background-image: url("../../newAssets//cravings.jpg");
+  }
+}
+
+.slider-right {
+  width: 150px;
+  font-size: x-large;
+  font-weight: 500;
+  position: absolute;
+  right: 220px;
+}
+
+.org {
+  color: var(--color-orange);
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: var(--font-head);
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .cravings {
+    height: 50vh;
+    margin-top: 2rem;
+  }
+  .slider-left {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    left: 10%;
+    font-size: 1rem;
+    top: 0;
+  }
+  .slider-right {
+    width: 50%;
+    left: 25%;
+    font-size: 1rem;
+    bottom: 5%;
+  }
+  .slider {
+    height: 60%;
+    left: 5%;
+    bottom: 23%;
+    width: 90%;
+  }
+  .org {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .cravings {
+    height: 50vh;
+    margin-top: 2rem;
+  }
+  .slider-left {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    left: 10%;
+    font-size: 1rem;
+    top: 0;
+  }
+  .slider-right {
+    width: 50%;
+    left: 25%;
+    font-size: 1rem;
+    bottom: 5%;
+  }
+  .slider {
+    height: 60%;
+    left: 5%;
+    bottom: 23%;
+    width: 90%;
+  }
+  .org {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .cravings {
+    height: 50vh;
+    margin-top: 0rem;
+  }
+  .slider-left {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    left: 10%;
+    font-size: 1rem;
+    top: 2rem;
+  }
+  .slider-right {
+    width: 50%;
+    left: 30%;
+    font-size: 1rem;
+    bottom: 12%;
+  }
+  .slider {
+    height: 60%;
+    left: 5%;
+    bottom: 23%;
+    width: 90%;
+  }
+  .org {
+    font-size: 1.2rem;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .cravings {
+    height: 50vh;
+    margin-top: 0rem;
+  }
+  .slider-left {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    left: 10%;
+    font-size: x-large;
+    top: 2rem;
+  }
+  .slider-right {
+    width: 50%;
+    left: 30%;
+    font-size: x-large;
+    bottom: 12%;
+  }
+  .slider {
+    height: 60%;
+    left: 5%;
+    bottom: 23%;
+    width: 90%;
+  }
+  .org {
+    font-size: larger;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .cravings {
+    height: 50vh;
+    margin-top: 0rem;
+  }
+  .slider-left {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    left: 10%;
+    font-size: x-large;
+    top: 2rem;
+  }
+  .slider-right {
+    width: 50%;
+    left: 30%;
+    font-size: x-large;
+    bottom: 12%;
+  }
+  .slider {
+    height: 60%;
+    left: 5%;
+    bottom: 23%;
+    width: 90%;
+  }
+  .org {
+    font-size: larger;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .cravings {
+    height: 50vh;
+    margin-top: 12rem;
+  }
+  .slider-left {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    left: 10%;
+    font-size: xx-large;
+    top: -4rem;
+  }
+  .slider-right {
+    width: 50%;
+    left: 35%;
+    font-size: xx-large;
+    bottom: 6%;
+  }
+  .slider {
+    height: 80%;
+    left: 15%;
+    bottom: 23%;
+    width: 70%;
+  }
+  .org {
+    font-size: larger;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .cravings {
+    height: 50vh;
+    margin-top: 10rem;
+  }
+  .slider-left {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    left: 10%;
+    font-size: xx-large;
+    top: -4rem;
+  }
+  .slider-right {
+    width: 50%;
+    left: 40%;
+    font-size: xx-large;
+    bottom: 6%;
+  }
+  .slider {
+    height: 80%;
+    left: 15%;
+    bottom: 23%;
+    width: 70%;
+  }
+  .org {
+    font-size: larger;
+  }
+}

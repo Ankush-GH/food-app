@@ -1,0 +1,7 @@
+.app__imagesection {
+  height: 100vh;
+  background-image: url("../../newAssets/imagesectionbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+}

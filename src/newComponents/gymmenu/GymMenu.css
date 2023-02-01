@@ -1,0 +1,349 @@
+.gymmenu {
+  width: 75%;
+  background-color: #fff2d1;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0rem 12rem;
+  padding: 3.5rem;
+}
+
+.menu-container {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 450px;
+  height: 250px;
+  margin: 1rem;
+  border-radius: 15px;
+  position: relative;
+}
+
+.menu-img {
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 450px;
+  height: 200px;
+}
+
+.menu-head {
+  color: black;
+  position: absolute;
+  top: 4%;
+  left: 2%;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 0.2);
+  width: 100px;
+  border: none;
+  height: 50px;
+  border-radius: 15px;
+  background-color: var(--color-orange);
+  font-family: var(--font-base);
+  color: white;
+}
+.menu-button:hover {
+  color: #fff2d1;
+  font-size: larger;
+  box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 0.2);
+}
+
+/* for medium to tablets */
+/* @media screen and (max-width: 768px) and (min-width: 481px) {
+  .app__gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+/* for tablets to Laptop screens */
+/* @media screen and (max-width: 1024px) and (min-width: 769px) {
+  .app__gymmenu {
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-button {
+    width: 150px;
+    height: 70px;
+    margin-left: 0;
+  }
+} */
+
+/* for laptop to desktop or bigger screens */
+/* @media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .app__gymmenu {
+    margin-top: -10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-container {
+    width: 70%;
+    height: 20rem;
+  }
+  .menu-img {
+    width: 100%;
+    height: 85%;
+  }
+  .gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-button {
+    width: 150px;
+    height: 70px;
+    margin-left: 0;
+  }
+} */
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .app__gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3.5rem;
+  }
+  .gymmenu-mainheader {
+    text-align: center;
+    font-size: x-large;
+    width: 70%;
+  }
+  .gymmenu {
+    padding: 0.5rem;
+    width: 90vw;
+  }
+  .menu-container {
+    height: 40vh;
+    width: 75vw;
+  }
+  .menu-img {
+    width: 75vw;
+  }
+  .menu-head {
+    font-size: small;
+  }
+  .menu-button {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .app__gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3.5rem;
+  }
+  .gymmenu-mainheader {
+    text-align: center;
+    font-size: x-large;
+    width: 70%;
+  }
+  .gymmenu {
+    padding: 0.5rem;
+    width: 90vw;
+  }
+  .menu-container {
+    height: 35vh;
+    width: 75vw;
+  }
+  .menu-img {
+    width: 75vw;
+  }
+  .menu-head {
+    font-size: medium;
+  }
+  .menu-button {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .app__gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6.5rem;
+  }
+  .gymmenu-mainheader {
+    text-align: center;
+    font-size: x-large;
+    width: 70%;
+  }
+  .gymmenu {
+    padding: 0.8rem;
+    width: 90vw;
+  }
+  .menu-container {
+    height: 35vh;
+    width: 75vw;
+  }
+  .menu-img {
+    height: 30vh;
+    width: 75vw;
+  }
+  .menu-head {
+    font-size: large;
+  }
+  .menu-button {
+    margin-left: 35%;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .app__gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.5rem;
+  }
+  .gymmenu-mainheader {
+    text-align: center;
+    font-size: xx-large;
+    width: 70%;
+  }
+  .gymmenu {
+    padding: 2rem 2rem;
+    width: 90vw;
+  }
+  .menu-container {
+    height: 35vh;
+    width: 75vw;
+  }
+  .menu-img {
+    height: 30vh;
+    width: 75vw;
+  }
+  .menu-head {
+    font-size: x-large;
+  }
+  .menu-button {
+    padding: 3rem 6rem;
+    font-size: larger;
+    margin-left: 38%;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .app__gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .gymmenu-mainheader {
+    text-align: center;
+    font-size: xx-large;
+    width: 70%;
+  }
+  .gymmenu {
+    padding: 2rem 2rem;
+    width: 90vw;
+  }
+  .menu-container {
+    height: 35vh;
+    width: 75vw;
+  }
+  .menu-img {
+    height: 30vh;
+    width: 75vw;
+  }
+  .menu-head {
+    font-size: x-large;
+  }
+  .menu-button {
+    padding: 3rem 6rem;
+    font-size: larger;
+    margin-left: 38%;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .app__gymmenu {
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-container {
+    width: 50vw;
+    height: 50vh;
+  }
+  .menu-img {
+    width: 50vw;
+    height: 40vh;
+  }
+  .menu-button {
+    width: 150px;
+    height: 70px;
+    margin-left: 0;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .app__gymmenu {
+    margin-top: -10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gymmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-container {
+    width: 50vw;
+    height: 50vh;
+  }
+  .menu-img {
+    width: 50vw;
+    height: 40vh;
+  }
+  .menu-button {
+    width: 150px;
+    height: 70px;
+    margin-left: 0;
+  }
+  .menu-head{
+    font-size:xx-large ;
+  }
+}

@@ -1,0 +1,111 @@
+/* .app__about {
+  height: 100vh;
+} */
+
+.about-header {
+  text-align: center;
+  color: var(--color-orange);
+  font-family: var(--font-base);
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 8rem 0;
+}
+
+.about-midsection {
+  height: 50vh;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}
+
+.about-middle-text {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text {
+  margin-left: 8rem;
+  width: 60vw;
+  font-weight: 600;
+}
+
+.about-images {
+  width: 600px;
+  height: 500px;
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .about-header {
+    font-size: 1.5rem;
+  }
+  .about-midsection {
+    padding: 0.5rem;
+    height: auto;
+  }
+  .about-middle-text {
+    font-size: large;
+  }
+  .about-images {
+    width: 50vw;
+    height: 30vh;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  about-header {
+    font-size: 1.5rem;
+  }
+  .about-midsection {
+    margin-bottom: 4rem;
+    padding: 0.5rem;
+    height: auto;
+  }
+  .about-middle-text {
+    font-size: large;
+  }
+  .about-images {
+    width: 50vw;
+    height: 30vh;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .about-header {
+    font-size: 5rem;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .about-header {
+    font-size: 5rem;
+  }
+  .about-middle-text {
+    font-size: 2.5rem;
+  }
+}

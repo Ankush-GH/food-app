@@ -1,0 +1,76 @@
+.app__texttransition {
+  height: 18vh;
+  position: relative;
+}
+
+.TT {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-family: var(--font-base);
+  position: absolute;
+  top: 15%;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .TT {
+    width: 90vw;
+    font-size: 1.5rem;
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .TT {
+    width: 90vw;
+    font-size: 1.5rem;
+    top: 55%;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .TT {
+    width: 90vw;
+    font-size: 1.8rem;
+    top: 45%;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .TT {
+    width: 90vw;
+    font-size: 3rem;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .TT {
+    width: 90vw;
+    font-size: 3rem;
+    top: 40%;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .TT {
+    width: 90vw;
+    font-size: 4rem;
+    top: 65%;
+  }
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+  .TT {
+    width: 90vw;
+    font-size: 4rem;
+    top: 50%;
+  }
+}
