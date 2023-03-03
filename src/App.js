@@ -20,6 +20,7 @@ import Mexican from "./pages/cuisines/Mexican"
 import Italian from "./pages/cuisines/Italian"
 import German from "./pages/cuisines/German"
 import Gym from "./pages/gym/Gym";
+import Cart from "./pages/cart/Cart";
 
 function App() {
   return (
@@ -73,6 +74,11 @@ function App() {
       {/* GYM MENU */}
       <Route exact path="/gym">
         {<Gym />}
+      </Route>
+
+      {/* CART */}
+      <Route exact path="/cart">
+        {<Cart />}
       </Route>
 
     </Switch>
