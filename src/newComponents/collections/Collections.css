@@ -43,6 +43,7 @@
 /* for small to medium mobiles */
 @media screen and (max-width: 361px) and (min-width: 320px) {
   .app__collections {
+    margin-top: -1rem;
     height: auto;
   }
   .collections {
@@ -68,6 +69,7 @@
 
 @media screen and (max-width: 400px) and (min-width: 362px) {
   .app__collections {
+    margin-top: -1rem;
     height: auto;
   }
   .collections {
@@ -93,7 +95,7 @@
 
 @media screen and (max-width: 440px) and (min-width: 401px) {
   .app__collections {
-    margin-top: -3rem;
+    margin-top: -4rem;
     height: auto;
   }
   .collections {
@@ -120,8 +122,11 @@
 /* for medium to tablets */
 @media screen and (max-width: 730px) and (min-width: 641px) {
   .app__collections {
-    margin-top: -3rem;
+    margin-top: -4rem;
     height: auto;
+  }
+  .collections-mainheader {
+    font-size: xx-large;
   }
   .collections {
     margin-top: -2rem;
@@ -146,8 +151,11 @@
 
 @media screen and (max-width: 821px) and (min-width: 731px) {
   .app__collections {
-    margin-top: -3rem;
+    margin-top: -4rem;
     height: auto;
+  }
+  .collections-mainheader {
+    font-size: xx-large;
   }
   .collections {
     margin-top: -2rem;
@@ -173,7 +181,11 @@
 /* for tablets to Laptop screens */
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .app__collections {
+    margin-top: -1rem;
     height: auto;
+  }
+  .collections-mainheader {
+    font-size: 3rem;
   }
   .collections {
     margin-top: -2rem;
@@ -199,7 +211,11 @@
 /* for laptop to desktop or bigger screens */
 @media screen and (max-width: 1280px) and (min-width: 1025px) {
   .app__collections {
+    margin-top: -1rem;
     height: auto;
+  }
+  .collections-mainheader{
+    font-size: 2.5rem;
   }
   .collections {
     margin-top: -2rem;

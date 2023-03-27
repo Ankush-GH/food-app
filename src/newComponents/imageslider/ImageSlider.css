@@ -1,0 +1,160 @@
+.slider {
+  position: relative;
+  height: 85vh;
+}
+
+.slider-img {
+  width: 80vw;
+  height: 65vh;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 48%;
+  right: 1rem;
+  font-size: 3rem;
+  color: var(--color-black);
+  z-index: 10;
+  user-select: none;
+  transition: 0.5s ease-in-out;
+}
+.right-arrow:hover {
+  color: var(--color-orange);
+}
+
+.left-arrow {
+  z-index: 10;
+  user-select: none;
+  position: absolute;
+  top: 48%;
+  left: 1rem;
+  font-size: 3rem;
+  color: var(--color-black);
+  transition: 0.5s ease-in-out;
+}
+.left-arrow:hover {
+  color: var(--color-orange);
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .slider {
+    height: 50vh;
+  }
+  .slider-img {
+    height: 35vh;
+  }
+  .right-arrow {
+    color: white;
+    border-radius: 10px;
+    font-size: xx-large;
+  }
+  .left-arrow {
+    color: white;
+    border-radius: 10px;
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .slider {
+    height: 50vh;
+  }
+  .slider-img {
+    height: 35vh;
+  }
+  .right-arrow {
+    color: white;
+    border-radius: 10px;
+    font-size: xx-large;
+  }
+  .left-arrow {
+    color: white;
+    border-radius: 10px;
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .slider {
+    height: 50vh;
+  }
+  .slider-img {
+    height: 35vh;
+  }
+  .right-arrow {
+    right: 1.5rem;
+    color: white;
+    border-radius: 10px;
+    font-size: xx-large;
+  }
+  .left-arrow {
+    color: white;
+    border-radius: 10px;
+    left: 1.5rem;
+    font-size: xx-large;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .slider {
+    height: 50vh;
+  }
+  .slider-img {
+    height: 35vh;
+  }
+  .right-arrow {
+    right: 4rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 3rem;
+  }
+  .left-arrow {
+    color: white;
+    border-radius: 10px;
+    left: 4rem;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .slider {
+    height: 50vh;
+  }
+  .slider-img {
+    height: 35vh;
+  }
+  .right-arrow {
+    right: 4rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 3rem;
+  }
+  .left-arrow {
+    color: white;
+    border-radius: 10px;
+    left: 4rem;
+    font-size: 3rem;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+}

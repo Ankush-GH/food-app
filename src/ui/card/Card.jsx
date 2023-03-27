@@ -1,4 +1,7 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { addToCart, removeFromCart } from "../../redux/actions/mealActions";
 
 import "./Card.css";
 
@@ -14,6 +17,23 @@ const Card = ({
   Mexican,
   German,
 }) => {
+  const dispatch = useDispatch();
+
+  const addHandler = (Indian) => {
+    dispatch(addToCart(Indian));
+    console.log(Indian);
+  };
+
+  const removeHandler = (id) => {
+    dispatch(removeFromCart(id));
+    console.log(id);
+  };
+
+  const submitHandler = (e) => {
+    e.preventDefault();
+    console.log("SUBMITTED THE AMOUNTS");
+  };
+
   return (
     <>
       {Restaurant && (
@@ -56,15 +76,37 @@ const Card = ({
           </div>
         </div>
       )}
+
       {Indian && (
         <div className="card p__acme" key={Indian.id}>
           <img className="card-img" src={Indian.img} alt="Image" />
           <div className="card-intro">
             <h2 className="card-header">{Indian.name}</h2>
             <p className="card-p">{Indian.desc}</p>
+
+            <form onSubmit={submitHandler}>
+              <button
+                type="submit"
+                onClick={() => {
+                  addHandler(Indian);
+                }}
+              >
+                Add to Cart
+              </button>
+              <button
+                type="submit"
+                onClick={() => {
+                  removeHandler(Indian.id);
+                }}
+              >
+                Remove from Cart
+              </button>
+              <Link to="/cart">CART</Link>
+            </form>
           </div>
         </div>
       )}
+
       {Chinese && (
         <div className="card p__acme" key={Chinese.id}>
           <img className="card-img" src={Chinese.img} alt="Image" />

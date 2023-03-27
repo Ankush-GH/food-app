@@ -1,0 +1,73 @@
+.review-card {
+  border-radius: 15px;
+  padding: 1rem;
+  min-width: 235px;
+  max-width: 300px;
+  min-height: 400px;
+  max-height: 450px;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.desc {
+  margin-top: 1rem;
+}
+
+.rev-img {
+  border-radius: 50%;
+  width: 6vw;
+  height: 8vh;
+}
+
+.stars {
+  margin-top: 2rem;
+}
+
+/* for small to medium mobiles */
+@media screen and (max-width: 361px) and (min-width: 320px) {
+  .rev-img {
+    width: 8vw;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 362px) {
+  .review-card {
+    min-width: 250px;
+  }
+}
+
+@media screen and (max-width: 440px) and (min-width: 401px) {
+  .rev-img {
+    width: 10vw;
+  }
+  .review-card {
+    min-width: 300px;
+  }
+}
+
+/* for medium to tablets */
+@media screen and (max-width: 730px) and (min-width: 641px) {
+  .review-card {
+    min-width: 280px;
+  }
+}
+
+@media screen and (max-width: 821px) and (min-width: 731px) {
+  .review-card {
+    min-width: 300px;
+  }
+}
+
+/* for tablets to Laptop screens */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+.review-card{
+    min-width: 270px;
+}
+}
+
+/* for laptop to desktop or bigger screens */
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+
+.review-card{
+    min-width: 260px;
+}}

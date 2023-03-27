@@ -15,7 +15,6 @@ import ind12 from "../../newAssets/cuisines/ind12.jpg";
 import TopSection from "../../newComponents/topsection/TopSection";
 import Footer from "../../newComponents/footer/Footer";
 import Card from "../../ui/card/Card";
-
 import chai from "../../newAssets/cuisines/chai.jpg";
 
 const indian = [
@@ -96,7 +95,8 @@ const indian = [
 const Indian = () => {
   return (
     <>
-      <TopSection /><h1
+      <TopSection />
+      <h1
         className="font_base flex__center"
         style={{ margin: "3rem 0 1rem 0 " }}
       >

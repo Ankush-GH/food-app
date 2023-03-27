@@ -1,69 +1,83 @@
 import React from "react";
+import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 
 import "./Reviews.css";
-import FilledStar from "../../ui/stars/FilledStar";
-import UnfilledStar from "../../ui/stars/UnfilledStar";
-import Profile from "../../newAssets/profile.webp";
+import ReviewCard from "../../ui/reviewcard/ReviewCard";
+import { useRef } from "react";
 
 const Reviews = () => {
-  return (
-    <div className="app__reviews flex__center">
-      <h1 className="reviews-mainheader p__nobills flex__center">
-        Reviews From Customers
-      </h1>
+  const ref = useRef(null);
 
-      <div className="review-container">
-        <img className="review-img" src={Profile} alt="profile pictures" />
-        <h3 className="reviews-header">Travis James</h3>
-        <div className="STARS">
-          <FilledStar />
-          <FilledStar />
-          <FilledStar />
-          <UnfilledStar />
-          <UnfilledStar />
+  const prevHandler = () => {
+    let width = ref.current.clientWidth;
+    ref.current.scrollLeft = ref.current.scrollLeft - width;
+  };
+
+  const nextHandler = () => {
+    let width = ref.current.clientWidth;
+    ref.current.scrollLeft = ref.current.scrollLeft + width;
+  };
+
+  return (
+    <div style={{ textAlign: "center" }}>
+      <h1 className="reveiws-mainheader p__nobills">Reviews</h1>
+      <div className="review-carousel flex__center">
+        <BiLeftArrow className="pre-btn pointer" onClick={prevHandler} />
+
+        <div className="review-container" ref={ref}>
+          <ReviewCard
+            name="Ricky"
+            rev="4"
+            desc="The restaurant offers some great selected dishes - mainly Italian and Mediterranean. Hummus and rissotto is something that I like the most. I feel visit the restaurant and it's a great place to have food with freind and family."
+          />
+          <ReviewCard
+            name="John"
+            rev="5"
+            desc="I had seen this restaurant in Matunga many times but never went inside. Saw it on UberEats on offer and thought of ordering some food. Ordered Chicken Frankie with Chicken Pasta in White Sauce and soft drink meal for Rs. 99. Chicken Frankie: Roti was a bit on the chewier side but the taste of sauce and chicken was good. 3.5/5 on taste. Chicken pasta in white sauce"
+          />
+          <ReviewCard
+            name="Mendy"
+            rev="3"
+            desc="It is a fairly good place for college kids who crave Chinese food and want it pocket friendly. There is no ambience as such just a couple of tables. The service is quick but the staff seems nonchalant. However the food is quite tasty. We tried Veg Schezwan noodles and Veg Manchurian rice. We also tried Chicken triple fried rice which was also quite good"
+          />
+          <ReviewCard
+            name="Johnny"
+            rev="5"
+            desc="Good to see an Indian cafe open in Phoenix. Not only is their chai good, their food, like pav bhaji is good too. One less point is for their bhajis, could have been better"
+          />
+          <ReviewCard
+            name="Janice"
+            rev="5"
+            desc="Since it is ITC, you do not have to look any further. One of the best restaurant when it comes to Indian food. Their dal makhani is to die for. Service levels are excellent and worth every penny that you spend. Ambience is fabulous"
+          />
+          <ReviewCard
+            name="Roy"
+            rev="4"
+            desc="After having visited Phoenix’s Jamie Pizzeria, wanted to try this outlet at Seawoods. We ordered the Super Green Pizza with additional Paneer and green chilly toppings"
+          />
+          <ReviewCard
+            name="Gary"
+            rev="3"
+            desc="Crowded, but the service was quick and excellent. Place is also kept neat and clean"
+          />
+          <ReviewCard
+            name="Stacy"
+            rev="3"
+            desc="This place looks a little congested, but does offer good buffet. Their veg food is good too, but is preferred by non vegetarians. Their pani puri bowled me out"
+          />
+          <ReviewCard
+            name="Dany"
+            rev="5"
+            desc="Since we had already been to their Lower Parel, Kala Ghoda and Andheri branch, we had high expectation and it turned up one notch above the rest. Ambience was good with Bollywood music playing, made a nice environment for a good evening"
+          />
+          <ReviewCard
+            name="James"
+            rev="5"
+            desc="I had a lot of expectation from Tibb’s frankie. Had read good reviews about it. We ordered Tandoori paneer frankie and it turned out to be a big disappointment"
+          />
         </div>
-        <p className="reviews-p">
-          The Food we had enjoyed at the time of dinner. It was really delicious
-          taste with great quality, everything had unique taste which we had
-          ordered, nice arrangement and services from the staff while eating, we
-          found nothing bad.
-        </p>
-      </div>
-      <div className="review-container">
-        <img className="review-img" src={Profile} alt="profile pictures" />
-        <h3 className="reviews-header">Joe Thomas</h3>
-        <div className="STARS">
-          <FilledStar />
-          <FilledStar />
-          <FilledStar />
-          <FilledStar />
-          <FilledStar />
-        </div>
-        <p className="reviews-p">
-          I and my friend had dinner here one of the nights we were in Kalpetta.
-          The ambiance was good and the food recommendations were great. We had
-          a traditional Arabian rice and chicken preparation, Kuzhi Manthi. It
-          was our first experience having this dish, and although a bit dry, it
-          tasted great.
-        </p>
-      </div>
-      <div className="review-container">
-        <img className="review-img" src={Profile} alt="profile pictures" />
-        <h3 className="reviews-header">Jacob William</h3>
-        <div className="STARS">
-          <FilledStar />
-          <FilledStar />
-          <FilledStar />
-          <FilledStar />
-          <UnfilledStar />
-        </div>
-        <p className="reviews-p">
-          "I recently switched my online meal ordering platform from a big
-          company that was taking 13% of every order to your free online
-          ordering platform. I am VERY PLEASED with your service —the ease of
-          setup, functionality, multiple delivery zone, visually appealing
-          layout and format all for a GENUINELY FREE COST.
-        </p>
+
+        <BiRightArrow className="next-btn pointer" onClick={nextHandler} />
       </div>
     </div>
   );

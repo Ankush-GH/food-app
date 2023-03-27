@@ -28,6 +28,7 @@
 }
 
 .card-header {
+  border: none;
   margin: 10px;
 }
 
@@ -60,7 +61,11 @@
 @media screen and (max-width: 361px) and (min-width: 320px) {
   .card {
     width: 85vw;
-    height: 60vh;
+    height: 50vh;
+  }
+  .card-img {
+    width: 100%;
+    height: 100%;
   }
   .card-p {
     height: 18vh;
@@ -72,7 +77,11 @@
 @media screen and (max-width: 400px) and (min-width: 362px) {
   .card {
     width: 85vw;
-    height: 60vh;
+    height: 50vh;
+  }
+  .card-img {
+    width: 100%;
+    height: 100%;
   }
   .card-p {
     height: 18vh;
@@ -84,7 +93,11 @@
 @media screen and (max-width: 440px) and (min-width: 401px) {
   .card {
     width: 85vw;
-    height: 39vh;
+    height: 50vh;
+  }
+  .card-img {
+    width: 100%;
+    height: 100%;
   }
   .card-p {
     height: 18vh;
@@ -97,10 +110,11 @@
 @media screen and (max-width: 730px) and (min-width: 641px) {
   .card {
     width: 60vw;
-    height: 37vh;
+    height: 50vh;
   }
   .card-img {
-    width: 60vw;
+    width: 100%;
+    height: 100%;
   }
   .card-intro {
     width: 60vw;
@@ -115,10 +129,11 @@
 @media screen and (max-width: 821px) and (min-width: 731px) {
   .card {
     width: 60vw;
-    height: 41vh;
+    height: 50vh;
   }
   .card-img {
-    width: 60vw;
+    width: 100%;
+    height: 100%;
   }
   .card-intro {
     padding: 0 0 0 1rem;

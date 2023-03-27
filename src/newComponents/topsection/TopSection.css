@@ -51,31 +51,7 @@
 @media screen and (max-width: 361px) and (min-width: 320px) {
   .topsection {
     margin: 0 0 0 0;
-    height: 50vh;
-    width: 100vw;
-  }
-  .mainHeader {
-    width: 40%;
-    font-size: 3rem;
-    left: 30%;
-  }
-  .left {
-    left: 1%;
-    bottom: -5%;
-  }
-  .right {
-    right: 1%;
-    bottom: -5%;
-  }
-  .navbtn {
-    font-size: 0.7rem;
-  }
-}
-
-/* for small to medium mobiles */
-@media screen and (max-width: 361px) and (min-width: 320px) {
-  .topsection {
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
   }
   .mainHeader {
@@ -98,7 +74,7 @@
 
 @media screen and (max-width: 400px) and (min-width: 362px) {
   .topsection {
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
   }
   .mainHeader {
@@ -121,7 +97,7 @@
 
 @media screen and (max-width: 440px) and (min-width: 401px) {
   .topsection {
-    height: 40vh;
+    height: 35vh;
     width: 100vw;
   }
   .mainHeader {
@@ -145,7 +121,7 @@
 /* for medium to tablets */
 @media screen and (max-width: 730px) and (min-width: 641px) {
   .topsection {
-    height: 35vh;
+    height: 30vh;
     width: 100vw;
   }
   .mainHeader {
@@ -168,7 +144,7 @@
 
 @media screen and (max-width: 821px) and (min-width: 731px) {
   .topsection {
-    height: 35vh;
+    height: 30vh;
     width: 100vw;
   }
   .mainHeader {

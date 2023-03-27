@@ -3,14 +3,20 @@ import { useSelector } from "react-redux";
 
 const Cart = () => {
   const meals = useSelector((state) => state.cartMeals.meals);
-  const { id, MealName } = meals[0];
+  //   const meals = useSelector((state) => state);
+  //   const { id, MealName } = meals[0];
   console.log(meals);
 
   return (
-    <>
-      <div>{id}</div>
-      <div>{MealName}</div>
-    </>
+    <div>
+      {meals.map((mealItem) => (
+        <div>
+          {mealItem.id}
+          {mealItem.name}
+          {mealItem.desc}
+        </div>
+      ))}
+    </div>
   );
 };
 

@@ -1,4 +1,5 @@
 .cravings {
+  margin-top: 5rem;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -13,11 +14,10 @@
   font-size: x-large;
   font-weight: 500;
 }
-.slider {
+.slider-section {
   width: 600px;
   height: 370px;
   border-radius: 8px;
-  background-color: pink;
   position: absolute;
   left: 29%;
   background-size: 100% 100%;
@@ -59,7 +59,7 @@
 @media screen and (max-width: 361px) and (min-width: 320px) {
   .cravings {
     height: 50vh;
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .slider-left {
     display: flex;
@@ -75,7 +75,7 @@
     font-size: 1rem;
     bottom: 5%;
   }
-  .slider {
+  .slider-section {
     height: 60%;
     left: 5%;
     bottom: 23%;
@@ -89,7 +89,7 @@
 @media screen and (max-width: 400px) and (min-width: 362px) {
   .cravings {
     height: 50vh;
-    margin-top: 2rem;
+    margin-top: 0;
   }
   .slider-left {
     display: flex;
@@ -105,7 +105,7 @@
     font-size: 1rem;
     bottom: 5%;
   }
-  .slider {
+  .slider-section {
     height: 60%;
     left: 5%;
     bottom: 23%;
@@ -119,7 +119,7 @@
 @media screen and (max-width: 440px) and (min-width: 401px) {
   .cravings {
     height: 50vh;
-    margin-top: 0rem;
+    margin-top: -2rem;
   }
   .slider-left {
     display: flex;
@@ -135,7 +135,7 @@
     font-size: 1rem;
     bottom: 12%;
   }
-  .slider {
+  .slider-section {
     height: 60%;
     left: 5%;
     bottom: 23%;
@@ -150,7 +150,7 @@
 @media screen and (max-width: 730px) and (min-width: 641px) {
   .cravings {
     height: 50vh;
-    margin-top: 0rem;
+    margin-top: -2rem;
   }
   .slider-left {
     display: flex;
@@ -166,7 +166,7 @@
     font-size: x-large;
     bottom: 12%;
   }
-  .slider {
+  .slider-section {
     height: 60%;
     left: 5%;
     bottom: 23%;
@@ -180,7 +180,7 @@
 @media screen and (max-width: 821px) and (min-width: 731px) {
   .cravings {
     height: 50vh;
-    margin-top: 0rem;
+    margin-top: -2rem;
   }
   .slider-left {
     display: flex;
@@ -196,7 +196,7 @@
     font-size: x-large;
     bottom: 12%;
   }
-  .slider {
+  .slider-section {
     height: 60%;
     left: 5%;
     bottom: 23%;
@@ -211,7 +211,7 @@
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .cravings {
     height: 50vh;
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
   .slider-left {
     display: flex;
@@ -227,7 +227,7 @@
     font-size: xx-large;
     bottom: 6%;
   }
-  .slider {
+  .slider-section {
     height: 80%;
     left: 15%;
     bottom: 23%;
@@ -258,7 +258,7 @@
     font-size: xx-large;
     bottom: 6%;
   }
-  .slider {
+  .slider-section {
     height: 80%;
     left: 15%;
     bottom: 23%;

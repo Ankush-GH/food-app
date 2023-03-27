@@ -14,7 +14,7 @@ const GymMenu = () => {
         Checkout our Special Menu for Gym Freaks
       </h2>
       <div className="gymmenu">
-        <div className="menu-container">
+        <div className="menu-container"> 
           <img className="menu-img" src={Gym4} alt="" />
           <h4 className="menu-head p__acme">Chicken Rice</h4>
         </div>

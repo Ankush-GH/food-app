@@ -20,7 +20,7 @@ const ImageSlider1 = () => {
                 </span>
             </div>
 
-            <div className="slider">
+            <div className="slider-section">
             </div>
 
             <div className="slider-right">Satisfy your

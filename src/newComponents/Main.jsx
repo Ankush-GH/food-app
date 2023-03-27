@@ -10,11 +10,14 @@ import FooderApp from "../newComponents/app/FooderApp";
 import ImageSection from "../newComponents/imagesection/ImageSection";
 import Reviews from "../newComponents/reviews/Reviews";
 import Footer from "../newComponents/footer/Footer";
+import ImageSlider from "./imageslider/ImageSlider";
+import { CarousalData } from "./imageslider/SliderData";
 
 const Main = () => {
   return (
     <>
       <TopSection />
+      <ImageSlider slides={CarousalData} />
       <ChangingText />
       <ImageSlider1 />
       <Collections />
